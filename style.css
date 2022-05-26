@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+.blue {
+    color: dodgerblue;
+}
+
+.purple {
+    color: darkorchid;
+}
+
+.grey {
+    color: grey;
+}
+
+.green {
+    color: forestgreen;
+}
+
+.red {
+    color: crimson;
+}
+
+/* Colours */
+
+body {
+    margin: 0px;
+    background-image: url("image/fafnir.jpg");
+    background-size: contain;
+}
+
+/* Background */
+
+* {
+    font-family: 'EB Garamond', serif;;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.textF {
+    text-align: left;
+    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    color: whitesmoke;
+}
+
+.textF h3, h2 {
+    margin: 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.clean {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* Text formatting */
+
+#logo {
+    height: 102.816px;
+    width: 99.432px;
+    padding-left: 10px;
+}
+
+#nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0px 10px 0px;
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+#blank {
+    width: 50px;
+    height: 50px;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+/* Header, footer and nav bar */
+
+.button {
+    background-color: grey;
+    border: none;
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 8px 16px;
+    text-align: center;
+    transition: 0.3s;
+    margin: 4px 2px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+.b1:active {
+    transition: none;
+    background-color: dodgerblue;
+}
+.b2:active {
+    transition: none;
+    background-color: darkorchid;
+}
+.b3:active {
+    transition: none;
+    background-color: grey;
+}
+.b4:active {
+    transition: none;
+    background-color: forestgreen;
+}
+.b5:active {
+    transition: none;
+    background-color: crimson;
+}
+
+/* Custom buttons with different active colours */
+
+.portrait {
+    width: 189px;
+    height: 301.1875px;
+    border-radius: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Protrait image scaling */
+
+.sideBySide {
+    padding-right: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+/* Flex side by side container */
+
+.quoteList {
+    padding-right: 10px;
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+/* Quotes list format */
+
+.imageCenter {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Flex center container */
+
+#map1 {
+    width: 100%;
+}
+
+#map2 {
+    width: 40%;
+}
+
+/* Map scaling */
+
+.images {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Flex portrait container */
